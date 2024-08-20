@@ -12,7 +12,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'  # Update to Node.js v18 or later
+          node-version: '18'
 
       - name: Install dependencies
         run: npm install
@@ -29,5 +29,5 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           start: npm start
-          wait-on: "http://localhost:3000"
-          wait-on-timeout: 60
+          wait-on: "http://localhost:37709"  # Ensure this matches the actual port your app is using
+          wait-on-timeout: 120  # Increase timeout if necessary
