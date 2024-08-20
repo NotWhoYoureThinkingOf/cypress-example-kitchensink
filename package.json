@@ -51,14 +51,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cypress-io/cypress-example-kitchensink.git"
+    "url": "git+https://github.com/NotWhoYoureThinkingOf/cypress-example-kitchensink"
   },
   "author": "Cypress-io",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cypress-io/cypress-example-kitchensink/issues"
+    "url": "https://github.com/NotWhoYoureThinkingOf/cypress-example-kitchensink/issues"
   },
-  "homepage": "https://github.com/cypress-io/cypress-example-kitchensink#readme",
+  "homepage": "https://github.com/NotWhoYoureThinkingOf/cypress-example-kitchensink#readme",
   "dependencies": {
     "npm-run-all2": "^5.0.0",
     "serve": "14.2.3"
